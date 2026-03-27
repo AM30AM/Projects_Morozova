@@ -7,6 +7,8 @@ file_in = open('text18-12.txt', 'r', encoding='utf-16')
 file = file_in.read()
 file_in.close()
 
+print('Содержимое текста:' + '\n' + file + '\n')
+
 space_count = 0
 for i in file:
     if i == '\n':
@@ -23,4 +25,3 @@ for line in lines:
 file_out = open('text.txt', 'w', encoding='utf-16')
 file_out.write('\n'.join(new_file))
 file_out.close()
-
