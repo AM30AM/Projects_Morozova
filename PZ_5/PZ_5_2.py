@@ -20,7 +20,7 @@ def SortDec3(A, B, C):
     return A, B, C
 
 try:
-    A1, B1, C1 = 2, 22, 1
+    A1, B1, C1 = 2, 22, 52
     A2, B2, C2 = 1, 100, 115
 
     print(SortDec3(A1, B1, C1))
