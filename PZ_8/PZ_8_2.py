@@ -17,5 +17,5 @@ english_word = {
 def translate(word):
    return english_word.get(word)
 
-w = input('Введите слово на английском: ')
-print(translate(w))
+w = input('Введите слово на англи`йском: ')
+print('Перевод', translate(w))
