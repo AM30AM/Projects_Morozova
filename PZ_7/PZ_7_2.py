@@ -12,5 +12,6 @@ def min_word(text):
 
     return shortest
 
+sen = str(input('Введите предложение: '))
 
-print('Самое короткое слово в предложении:',min_word('она читала книгу там'))
+print('Самое короткое слово в предложении:',min_word(sen))

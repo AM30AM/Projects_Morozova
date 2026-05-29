@@ -7,5 +7,6 @@ def stroka(s,n):
         res += '*' * n
         res += i
     return res
-
-print(stroka('worldwide', 3))
+n = int(input('введите число n: '))
+sen = input('введите слово: ')
+print(stroka(sen, n))
