@@ -4,7 +4,8 @@
 import random
 from functools import reduce
 
-size = 3
+size = int(input("Введите размер матрицы: "))
+
 
 matrix = [[random.randint(-20, 20) for _ in range(size)] for _ in range(size)]
 
